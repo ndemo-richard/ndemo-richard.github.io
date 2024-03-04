@@ -9,10 +9,11 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-black opacity-50"></div>
       </div>
       <div className="z-10 p-5 text-center">
-        <h1 className="text-5xl md:text-7xl font-bold mb-4">
-          Tech Artisan: Coding, Cloud & Continuous Deployment
+        <h1 className='md-4'>
+          <span className='text-accent  text-5xl md:text-7xl font-bold'>Tech Artisan: </span>
+          <span className='text-3xl md:text-5xl'>Coding,Cloud & Continuous Deployment</span>
         </h1>
-        <p className="text-xl md:text-3xl mb-8">
+        <p className="text-xl md:text-2xl mb-8 text-neon">
           Crafting Future-Proof Solutions with Precision and Passion
         </p>
         <a
