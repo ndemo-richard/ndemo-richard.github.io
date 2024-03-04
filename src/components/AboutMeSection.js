@@ -1,9 +1,13 @@
 // AboutMeSection.js
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin, faDribbble } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
 
 const AboutMeSection = () => {
   return (
-    <div className="bg-dark-200 py-12 px-4">
+    <div id="about" className="bg-dark-200 py-12 px-4">
       <div className="max-w-4xl mx-auto text-center">
         <div className="text-center mb-10">
           <h2 className="text-4xl font-mysterious text-accent">
@@ -20,18 +24,12 @@ const AboutMeSection = () => {
               <h3 className="text-lg leading-6 font-medium text-slate-200">Richard N. Onyancha</h3>
               <p className="text-neon">Tech Artisan: Coding, Cloud, & Continuous Deployment</p>
             </div>
-            <ul className="flex justify-center space-x-5">
-              <li>
-                <img src="/icons/coding-icon.svg" alt="Coding" className="w-10 h-10" />
-              </li>
-              <li>
-                <img src="/icons/cloud-icon.svg" alt="Cloud" className="w-10 h-10" />
-              </li>
-              <li>
-                <img src="/icons/devops-icon.svg" alt="DevOps" className="w-10 h-10" />
-              </li>
-              {/* Add more icons as needed */}
-            </ul>
+            <ul className="flex flex-wrap justify-center md:flex-nowrap space-x-0 md:space-x-5 space-y-2 md:space-y-0">
+        <li><a href="https://github.com/ndemo-richard" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} className="w-10 h-10" /></a></li>
+        <li><a href="https://www.linkedin.com/in/ndemo-richard" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} className="w-10 h-10" /></a></li>
+        <li><a href="mailto:your.ndemorich@google.com"><FontAwesomeIcon icon={faEnvelope} className="w-10 h-10" /></a></li>
+        <li><a href="https://dribbble.com/ndemo" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faDribbble} className="w-10 h-10" /></a></li>
+      </ul>
           </div>
         </div>
       </div>

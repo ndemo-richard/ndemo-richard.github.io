@@ -1,4 +1,4 @@
-// App.js or the specific page component
+// App.js
 import React from 'react';
 import HeroSection from './components/HeroSection';
 import AboutMeSection from './components/AboutMeSection';
@@ -12,14 +12,14 @@ import BackToTop from './components/BackToTop';
 function App() {
   return (
     <div className="bg-dark text-white min-h-screen font-body">
-      <Navbar />
-      <HeroSection />
-      <AboutMeSection />
-      <PortfolioSection />
-      <TestimonialsSection />
-      <BlogSection />
-      <ContactSection />
-      <BackToTop />
+        <Navbar />
+        <HeroSection />
+        <AboutMeSection />
+        <PortfolioSection />
+        <TestimonialsSection />
+        <BlogSection />
+        <ContactSection />
+        <BackToTop />
     </div>
   );
 }
