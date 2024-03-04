@@ -27,7 +27,7 @@ const AboutMeSection = () => {
             <ul className="flex flex-wrap justify-center md:flex-nowrap space-x-0 md:space-x-5 space-y-2 md:space-y-0">
         <li><a href="https://github.com/ndemo-richard" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} className="w-10 h-10" /></a></li>
         <li><a href="https://www.linkedin.com/in/ndemo-richard" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} className="w-10 h-10" /></a></li>
-        <li><a href="mailto:your.ndemorich@google.com"><FontAwesomeIcon icon={faEnvelope} className="w-10 h-10" /></a></li>
+        <li><a href="mailto:ndemorich@google.com"><FontAwesomeIcon icon={faEnvelope} className="w-10 h-10" /></a></li>
         <li><a href="https://dribbble.com/ndemo" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faDribbble} className="w-10 h-10" /></a></li>
       </ul>
           </div>
