@@ -2,14 +2,32 @@
 import React, { useState } from 'react';
 
 const projects = [
-  {
+   {
     id: 1,
-    title: 'Cloud Management Platform',
-    description: 'A comprehensive solution for managing cloud resources efficiently.',
-    imageUrl: '/project-images/cloud-platform.png', // Replace with your image path
-    technologies: 'AWS, Docker, Kubernetes',
-    category: 'Cloud Solutions',
-    link: 'http://example.com', // Replace with your project link
+    title: 'UshankoApps',
+    description: 'A modern, responsive landing page showcasing mobile apps developed by Ushanko Apps. Built with Next.js, the site features sections for app overviews, blog updates, user testimonials, and contact in…',
+    imageUrl: '/project-images/ushankoweb.png', // Replace with your image path
+    technologies: 'typescript',
+    category: 'web,blo',
+    link: 'https://ushank-apps.vercel.app/',
+  },
+  {
+    id: 2,
+    title: 'FearlessAuthentic',
+    description: 'A blog website for a consulting welness group',
+    imageUrl: '/project-images/fearlessauthentic.png',
+    technologies: 'javascript',
+    category: 'web',
+    link: 'https://fearless-authentic-minds.vercel.app/',
+  },
+  {
+    id: 3,
+    title: 'sincerlykui',
+    description: 'A personal blog site.',
+    imageUrl: '/project-images/sincerely.png', // Replace with your image path
+    technologies: 'javascript',
+    category: 'blog',
+    link: 'https://sincerelykui-ushanko-apps-projects.vercel.app/',
   },
   // Add more projects here
 ];
