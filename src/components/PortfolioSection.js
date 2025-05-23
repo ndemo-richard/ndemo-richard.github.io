@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 const projects = [
-  {
+   {
     id: 1,
     title: 'UshankoApps',
     description: 'A modern, responsive landing page showcasing mobile apps developed by Ushanko Apps. Built with Next.js, the site features sections for app overviews, blog updates, user testimonials, and contact in…',
