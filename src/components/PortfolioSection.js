@@ -16,7 +16,7 @@ const projects = [
     title: 'FearlessAuthentic',
     description: 'A blog website for a consulting welness group',
     imageUrl: '/project-images/fearlessauthentic.png',
-    technologies: 'javascript',
+    technologies: 'typescript',
     category: 'web',
     link: 'https://fearless-authentic-minds.vercel.app/',
   },
