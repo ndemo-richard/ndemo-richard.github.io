@@ -25,7 +25,7 @@ const HeroSection = () => {
           duration={500}
           className="inline-block bg-accent hover:bg-neon text-white font-bold py-3 px-6 rounded-lg text-lg transition duration-300 ease-in-out"
         >
-          Discover My Projects
+          Discover My Projects here
         </Link>
       </div>
     </div>
